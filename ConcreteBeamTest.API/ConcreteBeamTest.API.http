@@ -1,0 +1,48 @@
+@ConcreteBeamTest.API_HostAddress = http://localhost:5232
+
+### Test Concrete Beam Calculation with MATLAB
+POST {{ConcreteBeamTest.API_HostAddress}}/api/beam
+Content-Type: application/json
+
+{
+  "fck": 25,
+  "fyk": 420,
+  "b": 300,
+  "h": 600,
+  "d1": 50,
+  "d2": 50,
+  "As_top": 628,
+  "As_bot": 1256
+}
+
+### Test with different parameters
+POST {{ConcreteBeamTest.API_HostAddress}}/api/beam
+Content-Type: application/json
+
+{
+  "fck": 30,
+  "fyk": 500,
+  "b": 400,
+  "h": 800,
+  "d1": 60,
+  "d2": 60,
+  "As_top": 942,
+  "As_bot": 1884
+}
+
+### Test with minimal reinforcement
+POST {{ConcreteBeamTest.API_HostAddress}}/api/beam
+Content-Type: application/json
+
+{
+  "fck": 20,
+  "fyk": 420,
+  "b": 250,
+  "h": 500,
+  "d1": 40,
+  "d2": 40,
+  "As_top": 314,
+  "As_bot": 628
+}
+
+###
