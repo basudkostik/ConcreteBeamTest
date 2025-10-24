@@ -2,6 +2,18 @@ using ConcreteBeamTest.API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+var allowAllPolicyName = "AllowAllPolicy";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: allowAllPolicyName,
+                      policy =>
+                      {
+                          policy.AllowAnyOrigin()  
+                                .AllowAnyMethod()  
+                                .AllowAnyHeader();  
+                      });
+});
 // Add services to the container.
 builder.Services.AddScoped<ConcreteCalculator>();
 builder.Services.AddControllers();
@@ -20,6 +32,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors(allowAllPolicyName);
 app.UseAuthorization();
 
 app.MapControllers();
