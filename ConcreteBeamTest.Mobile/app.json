@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Concrete Beam Mobile",
+    "slug": "concrete-beam-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.baduman.concretebeammobile"
+    },
+    "extra": {
+      "apiBaseUrl": "http://10.85.241.181:5233"
+    }
+  }
+}

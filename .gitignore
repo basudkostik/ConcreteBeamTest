@@ -1,1 +1,51 @@
+# .NET
+ConcreteBeamTest.API/bin/
+ConcreteBeamTest.API/obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
 
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm
+
+# Expo
+ConcreteBeamTest.Mobile/.expo/
+ConcreteBeamTest.Mobile/.expo-shared/
+ConcreteBeamTest.Mobile/dist/
+ConcreteBeamTest.Mobile/web-build/
+
+# Vite
+ConcreteBeamTest.Web/dist/
+ConcreteBeamTest.Web/.vite/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+*.dll
+*.exe
+*.pdb
