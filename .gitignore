@@ -1,3 +1,11 @@
+# .NET
+ConcreteBeamTest.API/bin/
+ConcreteBeamTest.API/obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
 
 **/[Bb]in/
 **/[Oo]bj/
@@ -8,12 +16,10 @@ Build/
 *.sln.docstates
 *.suo
 
-
 *.user
 *.userosscache
 *.csproj.user
 *.vbproj.user
-
 
 TestResults/
 *.trx
@@ -30,6 +36,78 @@ _ReSharper*/
 secrets.json
 *.secrets.json
 
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm
 
+# Expo
+ConcreteBeamTest.Mobile/.expo/
+ConcreteBeamTest.Mobile/.expo-shared/
+ConcreteBeamTest.Mobile/dist/
+ConcreteBeamTest.Mobile/web-build/
 
+# Vite
+ConcreteBeamTest.Web/dist/
+ConcreteBeamTest.Web/.vite/
 
+# Flutter
+ConcenreteBeamTest.Flutter/**/build/
+ConcenreteBeamTest.Flutter/**/.dart_tool/
+ConcenreteBeamTest.Flutter/**/.flutter-plugins
+ConcenreteBeamTest.Flutter/**/.flutter-plugins-dependencies
+ConcenreteBeamTest.Flutter/**/.packages
+ConcenreteBeamTest.Flutter/**/.pub-cache/
+ConcenreteBeamTest.Flutter/**/.pub/
+ConcenreteBeamTest.Flutter/**/pubspec.lock
+ConcenreteBeamTest.Flutter/**/*.iml
+ConcenreteBeamTest.Flutter/**/*.apk
+ConcenreteBeamTest.Flutter/**/*.aab
+ConcenreteBeamTest.Flutter/**/*.app
+ConcenreteBeamTest.Flutter/**/ios/Pods/
+ConcenreteBeamTest.Flutter/**/ios/.symlinks/
+ConcenreteBeamTest.Flutter/**/ios/Flutter/Flutter.framework
+ConcenreteBeamTest.Flutter/**/ios/Flutter/Flutter.podspec
+ConcenreteBeamTest.Flutter/**/ios/ServiceDefinitions.json
+ConcenreteBeamTest.Flutter/**/ios/Runner/GeneratedPluginRegistrant.*
+ConcenreteBeamTest.Flutter/**/android/.gradle/
+ConcenreteBeamTest.Flutter/**/android/app/build/
+ConcenreteBeamTest.Flutter/**/android/build/
+ConcenreteBeamTest.Flutter/**/android/local.properties
+ConcenreteBeamTest.Flutter/**/android/.idea/
+ConcenreteBeamTest.Flutter/**/android/*.iml
+ConcenreteBeamTest.Flutter/**/android/app/*.iml
+ConcenreteBeamTest.Flutter/**/macos/Flutter/GeneratedPluginRegistrant.swift
+ConcenreteBeamTest.Flutter/**/windows/flutter/generated_plugin_registrant.cc
+ConcenreteBeamTest.Flutter/**/windows/flutter/generated_plugin_registrant.h
+ConcenreteBeamTest.Flutter/**/linux/flutter/generated_plugin_registrant.cc
+ConcenreteBeamTest.Flutter/**/linux/flutter/generated_plugin_registrant.h
+ConcenreteBeamTest.Flutter/**/web/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+*.dll
+*.exe
+*.pdb

@@ -56,6 +56,10 @@ namespace ConcreteBeamTest.API.Services
                 {
                     x = x,
                     a = a,
+                    fcd = fcd,
+                    fyd = fyd,
+                    Es = Es,
+                    epsilon_cu = epsilon_cu,
                     eps_s_top = eps_s_top,
                     eps_s_bot = eps_s_bot,
                     fs_top = fs_top,
